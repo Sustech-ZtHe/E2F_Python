@@ -54,3 +54,7 @@ Parameters
 python .\src\runE2F.py step3 -oc 3.5
 
 
+## Fault Segment Clustering  
+<img width="2118" height="1185" alt="FC8" src="https://github.com/user-attachments/assets/0cb9ae78-7b9d-4412-8e6b-87fb7fee77f8" />
+## Fault Structure Modeling    
+<img width="1355" height="1014" alt="FM3 5" src="https://github.com/user-attachments/assets/b1191f6e-7130-4c01-9345-f274144cb7d9" />
