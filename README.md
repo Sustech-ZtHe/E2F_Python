@@ -21,7 +21,7 @@ Parameters
 - -catalog : Your earthquake catalog path
 - -hough : Path to hough-3d-lines-master  
 
-python .\src\runE2F.py step0 -catalog .\example\catalog\ToC2ME.txt -hough .\hough-3d-lines-master\hough3dlines.exe
+python .\src\runE2F.py step0 -catalog .\example\catalog\ToC2ME.txt -hough .\hough-3d-lines-master\hough3dlines
 
 ### 1. Accepted and Unaccepted Fault Candidates
 Parameters
