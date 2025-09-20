@@ -1,8 +1,12 @@
 # E2F_Python
+How to start?  
+*Install the hough-3d-lines (https://github.com/cdalitz/hough-3d-lines)  
+*Install the Eigen (http://eigen.tuxfamily.org/)  
+*Let the three zips (hough-3d-lines-master, eigen-3.4.0, Earthquake-to-fault-main) be placed in a directory such as 'E2F'.  
+Then  
+
 
 Earthquake-to-Fault (E2F) pipeline.
-
----
 
 ## Windows/Linux (Create and activate environment)
 conda create -n E2Fpy python=3.10  
@@ -10,8 +14,6 @@ conda activate E2Fpy
 conda install scipy scikit-learn pyvista matplotlib plotly numpy mkl mkl-service mkl-devel  
 
 (Enter the project directory: xx\E2F_Python)
-
----
 
 ## Workflow
 
