@@ -1,10 +1,10 @@
 # E2F_Python
 
-Earthquake-to-Fault (E2F) pipeline for fault candidate extraction and fault structure modeling.
+Earthquake-to-Fault (E2F) pipeline.
 
 ---
 
-## ⚙️ Windows Environment Setup
+## Windows/Linux  
 
 # Create and activate environment
 conda create -n E2Fpy python=3.10 
@@ -18,7 +18,7 @@ cd xx\E2F_Python
 
 ---
 
-## �� Workflow
+## Workflow
 
 ### 0. Hough Transform
 
@@ -36,8 +36,8 @@ python .\src\runE2F.py step0 -catalog .\example\catalog\ToC2ME.txt -hough .\houg
 
 Parameters
 - -m <MODE>
-  - 1 → One preferred fault orientation
-  - 2 → Two or more preferred fault orientations
+  - 1 -> One preferred fault orientation
+  - 2 -> Two or more preferred fault orientations
 - -pm <PBAD factor> (used in MODE 1) → Suggested value: 2
   (PBAD = Deviation of the preferred fault orientation)
 - -mf <main fault orientation> (used in MODE 2) → Multiple fault orientations can be set
@@ -58,8 +58,7 @@ Parameters
 - -c <scaling coefficient> : Adjust the clustering distance
 
 Example
-python .\src\runE2F.py step2 -c 1 2 3 4 5 6 7 8
-# Free number of c values, not limited to <= 8
+python .\src\runE2F.py step2 -c 1 2 3 4 5 6 7 8 [Free number of c values, not limited to <= 8]
 
 ---
 
