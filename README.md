@@ -4,17 +4,12 @@ Earthquake-to-Fault (E2F) pipeline.
 
 ---
 
-## Windows/Linux  
-
-# Create and activate environment
+## Windows/Linux (Create and activate environment)
 conda create -n E2Fpy python=3.10 
 conda activate E2Fpy
-
-# Install dependencies
 conda install scipy scikit-learn pyvista matplotlib plotly numpy mkl mkl-service mkl-devel 
 
-# Enter the project directory
-cd xx\E2F_Python
+(Enter the project directory: xx\E2F_Python)
 
 ---
 
