@@ -3,7 +3,8 @@
 *Install the hough-3d-lines (https://github.com/cdalitz/hough-3d-lines)  
 *Install the Eigen (http://eigen.tuxfamily.org/)  
 *Let the two zips (hough-3d-lines-master, eigen-3.4.0) be placed in the E2F_Python road.  
-Then  
+Like  
+<img width="902" height="339" alt="797dc905-7b02-4bf7-9f21-30a9ee4016ec" src="https://github.com/user-attachments/assets/e87ae903-7f5e-4352-ac7b-c86652227fd1" />
 
 
 ## Windows/Linux (Create and activate environment)
