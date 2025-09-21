@@ -6,6 +6,8 @@
 Like  
 <img width="902" height="339" alt="797dc905-7b02-4bf7-9f21-30a9ee4016ec" src="https://github.com/user-attachments/assets/e87ae903-7f5e-4352-ac7b-c86652227fd1" />
 
+Then enter the hough-3d-lines-master, find Makefile and change the road of 'LIBEIGEN='usr/include/eigen3' as 'LIBEIGEN='../eigen-3.4.0'  
+Enter the E2Fpy, run the 'replayce.py'  
 
 ## Windows/Linux (Create and activate environment)
 conda create -n E2Fpy python=3.10  
